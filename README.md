@@ -1,7 +1,8 @@
 # FileLogGenerator
 
-Funzionamento: 
-lanciare l'applicativo da riga di comando: java -jar jars/FileLogGenerator.jar [options]
+Java Application that generates log files. Each line is 50byte long and it's random generated.
+
+The application have to be runned via command line: #> java -jar jars/FileLogGenerator.jar <options>
 
 Lista options:
  -b, --basedir <arg>: directory where the files are generated
